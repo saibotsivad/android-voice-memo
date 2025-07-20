@@ -1,0 +1,3 @@
+- **Read the "README.md" file** at the start of any new conversation session to understand the application architecture and decisions.
+- **Read the "PRP.md" file** at the start of any new conversation session to understand what is currently being worked on.
+- **Document application changes in the "README.md" file** any time decisions or changes are made.
