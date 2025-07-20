@@ -21,14 +21,57 @@ There are not many things to configure:
 
 ## Project Structure
 
-- Android application built with ...TODO...
+- Android application built with Kotlin and Jetpack Compose
+- Uses Material Design 3 for UI components
+- Target Android API 34+ (Android 14+)
+- Single Activity architecture with Compose UI
+
+```
+android-voice-memo/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/androidvoicememo/
+│   │   │   │   ├── MainActivity.kt
+│   │   │   │   └── ui/theme/
+│   │   │   │       ├── Color.kt
+│   │   │   │       ├── Theme.kt
+│   │   │   │       └── Type.kt
+│   │   │   ├── res/
+│   │   │   │   ├── values/
+│   │   │   │   │   ├── strings.xml
+│   │   │   │   │   └── themes.xml
+│   │   │   │   ├── xml/
+│   │   │   │   │   ├── backup_rules.xml
+│   │   │   │   │   └── data_extraction_rules.xml
+│   │   │   │   └── mipmap-*/
+│   │   │   │       └── launcher icons
+│   │   │   └── AndroidManifest.xml
+│   │   └── test/
+│   └── build.gradle.kts
+├── gradle/
+│   └── libs.versions.toml
+├── build.gradle.kts
+├── settings.gradle.kts
+├── CLAUDE.md
+├── PRP.md
+├── README.md
+└── TODO.md
+```
 
 ## Development Commands
 
-- Build: ...TODO...
-- Test: ...TODO...
-- Lint: ...TODO...
+- Build: `./gradlew build`
+- Test: `./gradlew test`
+- Lint: `./gradlew lint`
+- Assemble Debug APK: `./gradlew assembleDebug`
+- Install on Device: `./gradlew installDebug`
 
 ## Key Files
 
-- TODO
+- `MainActivity.kt`: Main application entry point using ComponentActivity
+- `ui/theme/Theme.kt`: Material Design 3 theme configuration with dynamic colors
+- `ui/theme/Color.kt`: Color scheme definitions for light and dark themes
+- `ui/theme/Type.kt`: Typography definitions
+- `app/build.gradle.kts`: App-level Gradle configuration with Compose dependencies
+- `gradle/libs.versions.toml`: Version catalog for dependency management
