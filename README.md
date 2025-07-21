@@ -23,7 +23,7 @@ There are not many things to configure:
 
 - Android application built with Kotlin and Jetpack Compose
 - Uses Material Design 3 for UI components
-- Target Android API 34+ (Android 14+)
+- Target Android API 36+ (Android 15+)
 - Single Activity architecture with Compose UI
 
 ```
