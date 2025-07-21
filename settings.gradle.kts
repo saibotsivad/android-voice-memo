@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AndroidVoiceMemo"
+rootProject.name = "VoiceMemo"
 include(":app")
+ 
