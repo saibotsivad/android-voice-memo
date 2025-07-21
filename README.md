@@ -61,11 +61,13 @@ android-voice-memo/
 
 ## Development Commands
 
-- Build: `./gradlew build`
-- Test: `./gradlew test`
-- Lint: `./gradlew lint`
-- Assemble Debug APK: `./gradlew assembleDebug`
-- Install on Device: `./gradlew installDebug`
+**Note: All Gradle commands require Java 17. Use the JAVA_HOME prefix shown below.**
+
+- Build: `JAVA_HOME=/opt/homebrew/opt/openjdk@17 ./gradlew build`
+- Test: `JAVA_HOME=/opt/homebrew/opt/openjdk@17 ./gradlew test`
+- Lint: `JAVA_HOME=/opt/homebrew/opt/openjdk@17 ./gradlew lint`
+- Assemble Debug APK: `JAVA_HOME=/opt/homebrew/opt/openjdk@17 ./gradlew assembleDebug`
+- Install on Device: `JAVA_HOME=/opt/homebrew/opt/openjdk@17 ./gradlew installDebug`
 
 ## Key Files
 
