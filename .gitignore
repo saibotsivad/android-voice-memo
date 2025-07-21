@@ -1,4 +1,9 @@
 
+# Gradle files
+.gradle/
+build/
+local.properties
+
 # AI Agent controls
 PRP.md
 TODO.md
