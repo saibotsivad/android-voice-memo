@@ -1,3 +1,4 @@
 - **Read the "README.md" file** at the start of any new conversation session to understand the application architecture and decisions.
 - **Read the "PRP.md" file** at the start of any new conversation session to understand what is currently being worked on.
 - **Document application changes in the "README.md" file** any time decisions or changes are made.
+- **Use Java 17 for builds**: Prefix all Gradle commands with `JAVA_HOME=/opt/homebrew/opt/openjdk@17` (e.g., `JAVA_HOME=/opt/homebrew/opt/openjdk@17 ./gradlew build`)
