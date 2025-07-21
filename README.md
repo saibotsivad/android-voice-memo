@@ -31,7 +31,7 @@ android-voice-memo/
 ├── app/
 │   ├── src/
 │   │   ├── main/
-│   │   │   ├── java/com/example/androidvoicememo/
+│   │   │   ├── java/com/saibotsivad/androidvoicememo/
 │   │   │   │   ├── MainActivity.kt
 │   │   │   │   └── ui/theme/
 │   │   │   │       ├── Color.kt

@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.androidvoicememo"
+    namespace = "com.saibotsivad.androidvoicememo"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.androidvoicememo"
+        applicationId = "com.saibotsivad.androidvoicememo"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

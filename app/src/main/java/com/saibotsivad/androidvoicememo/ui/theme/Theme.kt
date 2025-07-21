@@ -1,4 +1,4 @@
-package com.example.androidvoicememo.ui.theme
+package com.saibotsivad.androidvoicememo.ui.theme
 
 import android.app.Activity
 import android.os.Build
