@@ -35,18 +35,9 @@ jobs:
     - name: Build debug APK
       run: ./gradlew assembleDebug --stacktrace
     
-    - name: Rename APK with version info
-      run: |
-        cd app/build/outputs/apk/debug
-        if [ "${{ github.event_name }}" = "pull_request" ]; then
-          mv app-debug.apk voice-memo-pr${{ github.event.number }}.apk
-        else
-          mv app-debug.apk voice-memo-${{ github.sha }}.apk
-        fi
-    
     - name: Upload debug APK
       uses: actions/upload-artifact@v4
       with:
         name: voice-memo
-        path: app/build/outputs/apk/debug/voice-memo-*.apk
+        path: app/build/outputs/apk/debug/*.apk
         retention-days: 3
